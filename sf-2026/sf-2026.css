@@ -302,33 +302,33 @@ a:focus {
 
 /* Theme section headers (h2) */
 .theme-lime h2 {
-    color: #32cd32;
-    text-shadow: 0 0 8px rgba(50, 205, 50, 0.6), 0 0 12px rgba(0, 255, 0, 0.3);
+    color: #6BFD6B;
+    text-shadow: 0 0 8px rgba(107, 253, 107, 0.6), 0 0 12px rgba(107, 253, 107, 0.3);
 }
 
 .theme-pink h2 {
-    color: #ff1493;
-    text-shadow: 0 0 8px rgba(255, 20, 147, 0.6), 0 0 12px rgba(255, 105, 180, 0.3);
+    color: #FF69B4;
+    text-shadow: 0 0 8px rgba(255, 105, 180, 0.6), 0 0 12px rgba(255, 105, 180, 0.3);
 }
 
 .theme-gold h2 {
-    color: #ffd700;
+    color: #FFD700;
     text-shadow: 0 0 8px rgba(255, 215, 0, 0.6), 0 0 12px rgba(255, 170, 0, 0.3);
 }
 
 .theme-cyan h2 {
-    color: #00ffff;
-    text-shadow: 0 0 8px rgba(0, 255, 255, 0.6), 0 0 12px rgba(0, 206, 209, 0.3);
+    color: #79FEFF;
+    text-shadow: 0 0 8px rgba(121, 254, 255, 0.6), 0 0 12px rgba(121, 254, 255, 0.3);
 }
 
 .theme-orange h2 {
-    color: #ff8c00;
-    text-shadow: 0 0 8px rgba(255, 140, 0, 0.6), 0 0 12px rgba(255, 99, 71, 0.3);
+    color: #FF9A40;
+    text-shadow: 0 0 8px rgba(255, 154, 64, 0.6), 0 0 12px rgba(255, 154, 64, 0.3);
 }
 
 .theme-purple h2 {
-    color: #8a2be2;
-    text-shadow: 0 0 8px rgba(138, 43, 226, 0.6), 0 0 12px rgba(147, 112, 219, 0.3);
+    color: #A45BFF;
+    text-shadow: 0 0 8px rgba(164, 91, 255, 0.6), 0 0 12px rgba(164, 91, 255, 0.3);
 }
 
 /* ===== LAYOUT CLASSES ===== */
@@ -427,80 +427,80 @@ a:focus {
 
 .card-lime {
     background:
-        linear-gradient(135deg, rgba(50, 205, 50, 0.15) 0%, rgba(0, 255, 0, 0.08) 100%),
+        linear-gradient(135deg, rgba(107, 253, 107, 0.15) 0%, rgba(107, 253, 107, 0.08) 100%),
         rgba(5, 10, 5, 0.9);
-    border: 2px solid #32cd32;
-    box-shadow: 0 0 20px rgba(50, 205, 50, 0.2), inset 0 0 30px rgba(50, 205, 50, 0.05);
+    border: 2px solid #6BFD6B;
+    box-shadow: 0 0 20px rgba(107, 253, 107, 0.2), inset 0 0 30px rgba(107, 253, 107, 0.05);
 }
 
 .card-pink {
     background:
-        linear-gradient(135deg, rgba(255, 20, 147, 0.15) 0%, rgba(255, 105, 180, 0.08) 100%),
+        linear-gradient(135deg, rgba(255, 105, 180, 0.15) 0%, rgba(255, 105, 180, 0.08) 100%),
         rgba(15, 5, 10, 0.9);
-    border: 2px solid #ff1493;
-    box-shadow: 0 0 20px rgba(255, 20, 147, 0.25), inset 0 0 30px rgba(255, 20, 147, 0.05);
+    border: 2px solid #FF69B4;
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.25), inset 0 0 30px rgba(255, 105, 180, 0.05);
 }
 
 .card-gold {
     background:
-        linear-gradient(135deg, rgba(255, 215, 0, 0.15) 0%, rgba(255, 140, 0, 0.08) 100%),
+        linear-gradient(135deg, rgba(255, 215, 0, 0.15) 0%, rgba(255, 170, 0, 0.08) 100%),
         rgba(15, 10, 5, 0.9);
-    border: 2px solid #ffd700;
+    border: 2px solid #FFD700;
     box-shadow: 0 0 20px rgba(255, 215, 0, 0.2), inset 0 0 30px rgba(255, 215, 0, 0.05);
 }
 
 .card-cyan {
     background:
-        linear-gradient(135deg, rgba(0, 255, 255, 0.15) 0%, rgba(0, 206, 209, 0.08) 100%),
+        linear-gradient(135deg, rgba(121, 254, 255, 0.15) 0%, rgba(121, 254, 255, 0.08) 100%),
         rgba(5, 10, 15, 0.9);
-    border: 2px solid #00ffff;
-    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2), inset 0 0 30px rgba(0, 255, 255, 0.05);
+    border: 2px solid #79FEFF;
+    box-shadow: 0 0 20px rgba(121, 254, 255, 0.2), inset 0 0 30px rgba(121, 254, 255, 0.05);
 }
 
 .card-orange {
     background:
-        linear-gradient(135deg, rgba(255, 140, 0, 0.15) 0%, rgba(255, 99, 71, 0.08) 100%),
+        linear-gradient(135deg, rgba(255, 154, 64, 0.15) 0%, rgba(255, 154, 64, 0.08) 100%),
         rgba(15, 8, 5, 0.9);
-    border: 2px solid #ff8c00;
-    box-shadow: 0 0 20px rgba(255, 140, 0, 0.2), inset 0 0 30px rgba(255, 140, 0, 0.05);
+    border: 2px solid #FF9A40;
+    box-shadow: 0 0 20px rgba(255, 154, 64, 0.2), inset 0 0 30px rgba(255, 154, 64, 0.05);
 }
 
 .card-purple {
     background:
-        linear-gradient(135deg, rgba(138, 43, 226, 0.15) 0%, rgba(147, 112, 219, 0.08) 100%),
+        linear-gradient(135deg, rgba(164, 91, 255, 0.15) 0%, rgba(164, 91, 255, 0.08) 100%),
         rgba(10, 5, 15, 0.9);
-    border: 2px solid #8a2be2;
-    box-shadow: 0 0 20px rgba(138, 43, 226, 0.2), inset 0 0 30px rgba(138, 43, 226, 0.05);
+    border: 2px solid #A45BFF;
+    box-shadow: 0 0 20px rgba(164, 91, 255, 0.2), inset 0 0 30px rgba(164, 91, 255, 0.05);
 }
 
 .card-lime .text-header-lg {
-    color: #32cd32;
-    text-shadow: 0 0 6px rgba(50, 205, 50, 0.5), 0 0 10px rgba(0, 255, 0, 0.25);
+    color: #6BFD6B;
+    text-shadow: 0 0 6px rgba(107, 253, 107, 0.5), 0 0 10px rgba(107, 253, 107, 0.25);
 }
 
 .card-pink .text-header-lg {
-    color: #ff1493;
-    text-shadow: 0 0 6px rgba(255, 20, 147, 0.5), 0 0 10px rgba(255, 105, 180, 0.25);
+    color: #FF69B4;
+    text-shadow: 0 0 6px rgba(255, 105, 180, 0.5), 0 0 10px rgba(255, 105, 180, 0.25);
 }
 
 .card-gold .text-header-lg {
-    color: #ffd700;
+    color: #FFD700;
     text-shadow: 0 0 6px rgba(255, 215, 0, 0.5), 0 0 10px rgba(255, 170, 0, 0.25);
 }
 
 .card-cyan .text-header-lg {
-    color: #00ffff;
-    text-shadow: 0 0 6px rgba(0, 255, 255, 0.5), 0 0 10px rgba(0, 206, 209, 0.25);
+    color: #79FEFF;
+    text-shadow: 0 0 6px rgba(121, 254, 255, 0.5), 0 0 10px rgba(121, 254, 255, 0.25);
 }
 
 .card-orange .text-header-lg {
-    color: #ff8c00;
-    text-shadow: 0 0 6px rgba(255, 140, 0, 0.5), 0 0 10px rgba(255, 99, 71, 0.25);
+    color: #FF9A40;
+    text-shadow: 0 0 6px rgba(255, 154, 64, 0.5), 0 0 10px rgba(255, 154, 64, 0.25);
 }
 
 .card-purple .text-header-lg {
-    color: #8a2be2;
-    text-shadow: 0 0 6px rgba(138, 43, 226, 0.5), 0 0 10px rgba(147, 112, 219, 0.25);
+    color: #A45BFF;
+    text-shadow: 0 0 6px rgba(164, 91, 255, 0.5), 0 0 10px rgba(164, 91, 255, 0.25);
 }
 
 .description {
@@ -612,33 +612,33 @@ a:focus {
 }
 
 .theme-lime .subsection-header {
-    color: #32cd32;
-    text-shadow: 0 0 6px rgba(50, 205, 50, 0.5), 0 0 10px rgba(0, 255, 0, 0.25);
+    color: #6BFD6B;
+    text-shadow: 0 0 6px rgba(107, 253, 107, 0.5), 0 0 10px rgba(107, 253, 107, 0.25);
 }
 
 .theme-pink .subsection-header {
-    color: #ff1493;
-    text-shadow: 0 0 6px rgba(255, 20, 147, 0.5), 0 0 10px rgba(255, 105, 180, 0.25);
+    color: #FF69B4;
+    text-shadow: 0 0 6px rgba(255, 105, 180, 0.5), 0 0 10px rgba(255, 105, 180, 0.25);
 }
 
 .theme-gold .subsection-header {
-    color: #ffd700;
+    color: #FFD700;
     text-shadow: 0 0 6px rgba(255, 215, 0, 0.5), 0 0 10px rgba(255, 170, 0, 0.25);
 }
 
 .theme-cyan .subsection-header {
-    color: #00ffff;
-    text-shadow: 0 0 6px rgba(0, 255, 255, 0.5), 0 0 10px rgba(0, 206, 209, 0.25);
+    color: #79FEFF;
+    text-shadow: 0 0 6px rgba(121, 254, 255, 0.5), 0 0 10px rgba(121, 254, 255, 0.25);
 }
 
 .theme-orange .subsection-header {
-    color: #ff8c00;
-    text-shadow: 0 0 6px rgba(255, 140, 0, 0.5), 0 0 10px rgba(255, 99, 71, 0.25);
+    color: #FF9A40;
+    text-shadow: 0 0 6px rgba(255, 154, 64, 0.5), 0 0 10px rgba(255, 154, 64, 0.25);
 }
 
 .theme-purple .subsection-header {
-    color: #8a2be2;
-    text-shadow: 0 0 6px rgba(138, 43, 226, 0.5), 0 0 10px rgba(147, 112, 219, 0.25);
+    color: #A45BFF;
+    text-shadow: 0 0 6px rgba(164, 91, 255, 0.5), 0 0 10px rgba(164, 91, 255, 0.25);
 }
 
 /* Utility classes */
@@ -693,110 +693,110 @@ a:focus {
 
 .theme-lime .text-header,
 .theme-lime .text-header-lg {
-    color: #32cd32;
-    text-shadow: 0 0 6px rgba(50, 205, 50, 0.5), 0 0 10px rgba(0, 255, 0, 0.25);
+    color: #6BFD6B;
+    text-shadow: 0 0 6px rgba(107, 253, 107, 0.5), 0 0 10px rgba(107, 253, 107, 0.25);
 }
 
 .theme-pink .text-header,
 .theme-pink .text-header-lg {
-    color: #ff1493;
-    text-shadow: 0 0 6px rgba(255, 20, 147, 0.5), 0 0 10px rgba(255, 105, 180, 0.25);
+    color: #FF69B4;
+    text-shadow: 0 0 6px rgba(255, 105, 180, 0.5), 0 0 10px rgba(255, 105, 180, 0.25);
 }
 
 .theme-gold .text-header,
 .theme-gold .text-header-lg {
-    color: #ffd700;
+    color: #FFD700;
     text-shadow: 0 0 6px rgba(255, 215, 0, 0.5), 0 0 10px rgba(255, 170, 0, 0.25);
 }
 
 .theme-cyan .text-header,
 .theme-cyan .text-header-lg {
-    color: #00ffff;
-    text-shadow: 0 0 6px rgba(0, 255, 255, 0.5), 0 0 10px rgba(0, 206, 209, 0.25);
+    color: #79FEFF;
+    text-shadow: 0 0 6px rgba(121, 254, 255, 0.5), 0 0 10px rgba(121, 254, 255, 0.25);
 }
 
 .theme-orange .text-header,
 .theme-orange .text-header-lg {
-    color: #ff8c00;
-    text-shadow: 0 0 6px rgba(255, 140, 0, 0.5), 0 0 10px rgba(255, 99, 71, 0.25);
+    color: #FF9A40;
+    text-shadow: 0 0 6px rgba(255, 154, 64, 0.5), 0 0 10px rgba(255, 154, 64, 0.25);
 }
 
 .theme-purple .text-header,
 .theme-purple .text-header-lg {
-    color: #8a2be2;
-    text-shadow: 0 0 6px rgba(138, 43, 226, 0.5), 0 0 10px rgba(147, 112, 219, 0.25);
+    color: #A45BFF;
+    text-shadow: 0 0 6px rgba(164, 91, 255, 0.5), 0 0 10px rgba(164, 91, 255, 0.25);
 }
 
 .theme-lime p {
-    color: #7fff00;
+    color: #A8FFA8;
 }
 
 .theme-pink p {
-    color: #ff69b4;
+    color: #FFB6DA;
 }
 
 .theme-gold p {
-    color: #ffaa00;
+    color: #FFDDAA;
 }
 
 .theme-cyan p {
-    color: #00ced1;
+    color: #A6FEFF;
 }
 
 .theme-orange p {
-    color: #ff6347;
+    color: #FFC8A4;
 }
 
 .theme-purple p {
-    color: #9370db;
+    color: #D0B0FF;
 }
 
 .theme-lime a {
-    color: #32cd32;
+    color: #6BFD6B;
 }
 
 .theme-pink a {
-    color: #ff1493;
+    color: #FF69B4;
 }
 
 .theme-gold a {
-    color: #ffd700;
+    color: #FFD700;
 }
 
 .theme-cyan a {
-    color: #00ffff;
+    color: #79FEFF;
 }
 
 .theme-orange a {
-    color: #ff8c00;
+    color: #FF9A40;
 }
 
 .theme-purple a {
-    color: #8a2be2;
+    color: #A45BFF;
 }
 
 .theme-lime .list-item-left {
-    color: #32cd32;
+    color: #6BFD6B;
 }
 
 .theme-pink .list-item-left {
-    color: #ff1493;
+    color: #FF69B4;
 }
 
 .theme-gold .list-item-left {
-    color: #ffd700;
+    color: #FFD700;
 }
 
 .theme-cyan .list-item-left {
-    color: #00ffff;
+    color: #79FEFF;
 }
 
 .theme-orange .list-item-left {
-    color: #ff8c00;
+    color: #FF9A40;
 }
 
 .theme-purple .list-item-left {
-    color: #8a2be2;
+    color: #A45BFF;
 }
 
 /* ===== GAMES SECTION ===== */
