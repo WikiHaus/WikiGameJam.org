@@ -302,6 +302,7 @@ a:focus {
 
 /* Theme section headers (h2) */
 .theme-lime h2 {
+<<<<<<< HEAD
     color: #32cd32;
     text-shadow: 0 0 8px rgba(50, 205, 50, 0.6), 0 0 12px rgba(0, 255, 0, 0.3);
 }
@@ -313,10 +314,24 @@ a:focus {
 
 .theme-gold h2 {
     color: #ffd700;
+=======
+    color: #6BFD6B;
+    text-shadow: 0 0 8px rgba(107, 253, 107, 0.6), 0 0 12px rgba(107, 253, 107, 0.3);
+}
+
+.theme-pink h2 {
+    color: #FF69B4;
+    text-shadow: 0 0 8px rgba(255, 105, 180, 0.6), 0 0 12px rgba(255, 105, 180, 0.3);
+}
+
+.theme-gold h2 {
+    color: #FFD700;
+>>>>>>> 1036bbd (Add San Francisco 2026 page)
     text-shadow: 0 0 8px rgba(255, 215, 0, 0.6), 0 0 12px rgba(255, 170, 0, 0.3);
 }
 
 .theme-cyan h2 {
+<<<<<<< HEAD
     color: #00ffff;
     text-shadow: 0 0 8px rgba(0, 255, 255, 0.6), 0 0 12px rgba(0, 206, 209, 0.3);
 }
@@ -329,6 +344,20 @@ a:focus {
 .theme-purple h2 {
     color: #8a2be2;
     text-shadow: 0 0 8px rgba(138, 43, 226, 0.6), 0 0 12px rgba(147, 112, 219, 0.3);
+=======
+    color: #79FEFF;
+    text-shadow: 0 0 8px rgba(121, 254, 255, 0.6), 0 0 12px rgba(121, 254, 255, 0.3);
+}
+
+.theme-orange h2 {
+    color: #FF9A40;
+    text-shadow: 0 0 8px rgba(255, 154, 64, 0.6), 0 0 12px rgba(255, 154, 64, 0.3);
+}
+
+.theme-purple h2 {
+    color: #A45BFF;
+    text-shadow: 0 0 8px rgba(164, 91, 255, 0.6), 0 0 12px rgba(164, 91, 255, 0.3);
+>>>>>>> 1036bbd (Add San Francisco 2026 page)
 }
 
 /* ===== LAYOUT CLASSES ===== */
@@ -427,46 +456,81 @@ a:focus {
 
 .card-lime {
     background:
+<<<<<<< HEAD
         linear-gradient(135deg, rgba(50, 205, 50, 0.15) 0%, rgba(0, 255, 0, 0.08) 100%),
         rgba(5, 10, 5, 0.9);
     border: 2px solid #32cd32;
     box-shadow: 0 0 20px rgba(50, 205, 50, 0.2), inset 0 0 30px rgba(50, 205, 50, 0.05);
+=======
+        linear-gradient(135deg, rgba(107, 253, 107, 0.15) 0%, rgba(107, 253, 107, 0.08) 100%),
+        rgba(5, 10, 5, 0.9);
+    border: 2px solid #6BFD6B;
+    box-shadow: 0 0 20px rgba(107, 253, 107, 0.2), inset 0 0 30px rgba(107, 253, 107, 0.05);
+>>>>>>> 1036bbd (Add San Francisco 2026 page)
 }
 
 .card-pink {
     background:
+<<<<<<< HEAD
         linear-gradient(135deg, rgba(255, 20, 147, 0.15) 0%, rgba(255, 105, 180, 0.08) 100%),
         rgba(15, 5, 10, 0.9);
     border: 2px solid #ff1493;
     box-shadow: 0 0 20px rgba(255, 20, 147, 0.25), inset 0 0 30px rgba(255, 20, 147, 0.05);
+=======
+        linear-gradient(135deg, rgba(255, 105, 180, 0.15) 0%, rgba(255, 105, 180, 0.08) 100%),
+        rgba(15, 5, 10, 0.9);
+    border: 2px solid #FF69B4;
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.25), inset 0 0 30px rgba(255, 105, 180, 0.05);
+>>>>>>> 1036bbd (Add San Francisco 2026 page)
 }
 
 .card-gold {
     background:
+<<<<<<< HEAD
         linear-gradient(135deg, rgba(255, 215, 0, 0.15) 0%, rgba(255, 140, 0, 0.08) 100%),
         rgba(15, 10, 5, 0.9);
     border: 2px solid #ffd700;
+=======
+        linear-gradient(135deg, rgba(255, 215, 0, 0.15) 0%, rgba(255, 170, 0, 0.08) 100%),
+        rgba(15, 10, 5, 0.9);
+    border: 2px solid #FFD700;
+>>>>>>> 1036bbd (Add San Francisco 2026 page)
     box-shadow: 0 0 20px rgba(255, 215, 0, 0.2), inset 0 0 30px rgba(255, 215, 0, 0.05);
 }
 
 .card-cyan {
     background:
+<<<<<<< HEAD
         linear-gradient(135deg, rgba(0, 255, 255, 0.15) 0%, rgba(0, 206, 209, 0.08) 100%),
         rgba(5, 10, 15, 0.9);
     border: 2px solid #00ffff;
     box-shadow: 0 0 20px rgba(0, 255, 255, 0.2), inset 0 0 30px rgba(0, 255, 255, 0.05);
+=======
+        linear-gradient(135deg, rgba(121, 254, 255, 0.15) 0%, rgba(121, 254, 255, 0.08) 100%),
+        rgba(5, 10, 15, 0.9);
+    border: 2px solid #79FEFF;
+    box-shadow: 0 0 20px rgba(121, 254, 255, 0.2), inset 0 0 30px rgba(121, 254, 255, 0.05);
+>>>>>>> 1036bbd (Add San Francisco 2026 page)
 }
 
 .card-orange {
     background:
+<<<<<<< HEAD
         linear-gradient(135deg, rgba(255, 140, 0, 0.15) 0%, rgba(255, 99, 71, 0.08) 100%),
         rgba(15, 8, 5, 0.9);
     border: 2px solid #ff8c00;
     box-shadow: 0 0 20px rgba(255, 140, 0, 0.2), inset 0 0 30px rgba(255, 140, 0, 0.05);
+=======
+        linear-gradient(135deg, rgba(255, 154, 64, 0.15) 0%, rgba(255, 154, 64, 0.08) 100%),
+        rgba(15, 8, 5, 0.9);
+    border: 2px solid #FF9A40;
+    box-shadow: 0 0 20px rgba(255, 154, 64, 0.2), inset 0 0 30px rgba(255, 154, 64, 0.05);
+>>>>>>> 1036bbd (Add San Francisco 2026 page)
 }
 
 .card-purple {
     background:
+<<<<<<< HEAD
         linear-gradient(135deg, rgba(138, 43, 226, 0.15) 0%, rgba(147, 112, 219, 0.08) 100%),
         rgba(10, 5, 15, 0.9);
     border: 2px solid #8a2be2;
@@ -485,10 +549,31 @@ a:focus {
 
 .card-gold .text-header-lg {
     color: #ffd700;
+=======
+        linear-gradient(135deg, rgba(164, 91, 255, 0.15) 0%, rgba(164, 91, 255, 0.08) 100%),
+        rgba(10, 5, 15, 0.9);
+    border: 2px solid #A45BFF;
+    box-shadow: 0 0 20px rgba(164, 91, 255, 0.2), inset 0 0 30px rgba(164, 91, 255, 0.05);
+}
+
+.card-lime .text-header-lg {
+    color: #6BFD6B;
+    text-shadow: 0 0 6px rgba(107, 253, 107, 0.5), 0 0 10px rgba(107, 253, 107, 0.25);
+}
+
+.card-pink .text-header-lg {
+    color: #FF69B4;
+    text-shadow: 0 0 6px rgba(255, 105, 180, 0.5), 0 0 10px rgba(255, 105, 180, 0.25);
+}
+
+.card-gold .text-header-lg {
+    color: #FFD700;
+>>>>>>> 1036bbd (Add San Francisco 2026 page)
     text-shadow: 0 0 6px rgba(255, 215, 0, 0.5), 0 0 10px rgba(255, 170, 0, 0.25);
 }
 
 .card-cyan .text-header-lg {
+<<<<<<< HEAD
     color: #00ffff;
     text-shadow: 0 0 6px rgba(0, 255, 255, 0.5), 0 0 10px rgba(0, 206, 209, 0.25);
 }
@@ -501,6 +586,20 @@ a:focus {
 .card-purple .text-header-lg {
     color: #8a2be2;
     text-shadow: 0 0 6px rgba(138, 43, 226, 0.5), 0 0 10px rgba(147, 112, 219, 0.25);
+=======
+    color: #79FEFF;
+    text-shadow: 0 0 6px rgba(121, 254, 255, 0.5), 0 0 10px rgba(121, 254, 255, 0.25);
+}
+
+.card-orange .text-header-lg {
+    color: #FF9A40;
+    text-shadow: 0 0 6px rgba(255, 154, 64, 0.5), 0 0 10px rgba(255, 154, 64, 0.25);
+}
+
+.card-purple .text-header-lg {
+    color: #A45BFF;
+    text-shadow: 0 0 6px rgba(164, 91, 255, 0.5), 0 0 10px rgba(164, 91, 255, 0.25);
+>>>>>>> 1036bbd (Add San Francisco 2026 page)
 }
 
 .description {
@@ -612,6 +711,7 @@ a:focus {
 }
 
 .theme-lime .subsection-header {
+<<<<<<< HEAD
     color: #32cd32;
     text-shadow: 0 0 6px rgba(50, 205, 50, 0.5), 0 0 10px rgba(0, 255, 0, 0.25);
 }
@@ -623,10 +723,24 @@ a:focus {
 
 .theme-gold .subsection-header {
     color: #ffd700;
+=======
+    color: #6BFD6B;
+    text-shadow: 0 0 6px rgba(107, 253, 107, 0.5), 0 0 10px rgba(107, 253, 107, 0.25);
+}
+
+.theme-pink .subsection-header {
+    color: #FF69B4;
+    text-shadow: 0 0 6px rgba(255, 105, 180, 0.5), 0 0 10px rgba(255, 105, 180, 0.25);
+}
+
+.theme-gold .subsection-header {
+    color: #FFD700;
+>>>>>>> 1036bbd (Add San Francisco 2026 page)
     text-shadow: 0 0 6px rgba(255, 215, 0, 0.5), 0 0 10px rgba(255, 170, 0, 0.25);
 }
 
 .theme-cyan .subsection-header {
+<<<<<<< HEAD
     color: #00ffff;
     text-shadow: 0 0 6px rgba(0, 255, 255, 0.5), 0 0 10px rgba(0, 206, 209, 0.25);
 }
@@ -639,6 +753,20 @@ a:focus {
 .theme-purple .subsection-header {
     color: #8a2be2;
     text-shadow: 0 0 6px rgba(138, 43, 226, 0.5), 0 0 10px rgba(147, 112, 219, 0.25);
+=======
+    color: #79FEFF;
+    text-shadow: 0 0 6px rgba(121, 254, 255, 0.5), 0 0 10px rgba(121, 254, 255, 0.25);
+}
+
+.theme-orange .subsection-header {
+    color: #FF9A40;
+    text-shadow: 0 0 6px rgba(255, 154, 64, 0.5), 0 0 10px rgba(255, 154, 64, 0.25);
+}
+
+.theme-purple .subsection-header {
+    color: #A45BFF;
+    text-shadow: 0 0 6px rgba(164, 91, 255, 0.5), 0 0 10px rgba(164, 91, 255, 0.25);
+>>>>>>> 1036bbd (Add San Francisco 2026 page)
 }
 
 /* Utility classes */
@@ -693,36 +821,61 @@ a:focus {
 
 .theme-lime .text-header,
 .theme-lime .text-header-lg {
+<<<<<<< HEAD
     color: #32cd32;
     text-shadow: 0 0 6px rgba(50, 205, 50, 0.5), 0 0 10px rgba(0, 255, 0, 0.25);
+=======
+    color: #6BFD6B;
+    text-shadow: 0 0 6px rgba(107, 253, 107, 0.5), 0 0 10px rgba(107, 253, 107, 0.25);
+>>>>>>> 1036bbd (Add San Francisco 2026 page)
 }
 
 .theme-pink .text-header,
 .theme-pink .text-header-lg {
+<<<<<<< HEAD
     color: #ff1493;
     text-shadow: 0 0 6px rgba(255, 20, 147, 0.5), 0 0 10px rgba(255, 105, 180, 0.25);
+=======
+    color: #FF69B4;
+    text-shadow: 0 0 6px rgba(255, 105, 180, 0.5), 0 0 10px rgba(255, 105, 180, 0.25);
+>>>>>>> 1036bbd (Add San Francisco 2026 page)
 }
 
 .theme-gold .text-header,
 .theme-gold .text-header-lg {
+<<<<<<< HEAD
     color: #ffd700;
+=======
+    color: #FFD700;
+>>>>>>> 1036bbd (Add San Francisco 2026 page)
     text-shadow: 0 0 6px rgba(255, 215, 0, 0.5), 0 0 10px rgba(255, 170, 0, 0.25);
 }
 
 .theme-cyan .text-header,
 .theme-cyan .text-header-lg {
+<<<<<<< HEAD
     color: #00ffff;
     text-shadow: 0 0 6px rgba(0, 255, 255, 0.5), 0 0 10px rgba(0, 206, 209, 0.25);
+=======
+    color: #79FEFF;
+    text-shadow: 0 0 6px rgba(121, 254, 255, 0.5), 0 0 10px rgba(121, 254, 255, 0.25);
+>>>>>>> 1036bbd (Add San Francisco 2026 page)
 }
 
 .theme-orange .text-header,
 .theme-orange .text-header-lg {
+<<<<<<< HEAD
     color: #ff8c00;
     text-shadow: 0 0 6px rgba(255, 140, 0, 0.5), 0 0 10px rgba(255, 99, 71, 0.25);
+=======
+    color: #FF9A40;
+    text-shadow: 0 0 6px rgba(255, 154, 64, 0.5), 0 0 10px rgba(255, 154, 64, 0.25);
+>>>>>>> 1036bbd (Add San Francisco 2026 page)
 }
 
 .theme-purple .text-header,
 .theme-purple .text-header-lg {
+<<<<<<< HEAD
     color: #8a2be2;
     text-shadow: 0 0 6px rgba(138, 43, 226, 0.5), 0 0 10px rgba(147, 112, 219, 0.25);
 }
@@ -797,6 +950,82 @@ a:focus {
 
 .theme-purple .list-item-left {
     color: #8a2be2;
+=======
+    color: #A45BFF;
+    text-shadow: 0 0 6px rgba(164, 91, 255, 0.5), 0 0 10px rgba(164, 91, 255, 0.25);
+}
+
+.theme-lime p {
+    color: #A8FFA8;
+}
+
+.theme-pink p {
+    color: #FFB6DA;
+}
+
+.theme-gold p {
+    color: #FFDDAA;
+}
+
+.theme-cyan p {
+    color: #A6FEFF;
+}
+
+.theme-orange p {
+    color: #FFC8A4;
+}
+
+.theme-purple p {
+    color: #D0B0FF;
+}
+
+.theme-lime a {
+    color: #6BFD6B;
+}
+
+.theme-pink a {
+    color: #FF69B4;
+}
+
+.theme-gold a {
+    color: #FFD700;
+}
+
+.theme-cyan a {
+    color: #79FEFF;
+}
+
+.theme-orange a {
+    color: #FF9A40;
+}
+
+.theme-purple a {
+    color: #A45BFF;
+}
+
+.theme-lime .list-item-left {
+    color: #6BFD6B;
+}
+
+.theme-pink .list-item-left {
+    color: #FF69B4;
+}
+
+.theme-gold .list-item-left {
+    color: #FFD700;
+}
+
+.theme-cyan .list-item-left {
+    color: #79FEFF;
+}
+
+.theme-orange .list-item-left {
+    color: #FF9A40;
+}
+
+.theme-purple .list-item-left {
+    color: #A45BFF;
+>>>>>>> 1036bbd (Add San Francisco 2026 page)
 }
 
 /* ===== GAMES SECTION ===== */
