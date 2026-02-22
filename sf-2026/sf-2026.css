@@ -64,10 +64,10 @@ a:focus {
 /* ===== HERO SECTION ===== */
 .hero {
     background:
-        linear-gradient(135deg, #2d0a3d 0%, #3d1a1a 50%, #4d2414 100%),
-        radial-gradient(circle at top left, rgba(255, 107, 147, 0.25) 0%, transparent 60%),
-        radial-gradient(circle at bottom right, rgba(255, 184, 77, 0.2) 0%, transparent 60%),
-        radial-gradient(circle at center, rgba(186, 85, 211, 0.15) 0%, transparent 70%);
+        linear-gradient(180deg, #402fc1 0%, #402fc1 80%, #000000 100%),
+        radial-gradient(circle at top left, rgba(64, 47, 193, 0.4) 0%, transparent 60%),
+        radial-gradient(circle at bottom right, rgba(64, 47, 193, 0.3) 0%, transparent 60%),
+        radial-gradient(circle at center, rgba(64, 47, 193, 0.2) 0%, transparent 70%);
     color: #ffffff;
     text-align: center;
     padding: 0 0 30px 0;
