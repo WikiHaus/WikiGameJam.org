@@ -799,6 +799,51 @@ a:focus {
     color: #A45BFF;
 }
 
+/* ===== REGISTER BUTTON ===== */
+.grid-3 .card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-register-btn {
+    text-align: center;
+    margin-top: auto;
+    padding-top: var(--spacing-lg);
+    border-top: 1px solid rgba(255, 105, 180, 0.25);
+}
+
+.btn-register {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    font-family: var(--font-header);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    border-radius: var(--radius-md);
+    transition: all var(--transition-medium);
+    cursor: pointer;
+    background: rgba(255, 105, 180, 0.15);
+    color: #FF69B4 !important;
+    border: 1px solid rgba(255, 105, 180, 0.5);
+    box-shadow: 0 2px 6px rgba(255, 105, 180, 0.15);
+    white-space: nowrap;
+}
+
+.btn-register:hover,
+.btn-register:focus {
+    background: rgba(255, 105, 180, 0.25);
+    color: #ffaacc !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(255, 105, 180, 0.25);
+    border-color: rgba(255, 105, 180, 0.7);
+}
+
+.btn-register:active {
+    transform: translateY(0);
+}
+
 /* ===== GAMES SECTION ===== */
 
 .games-grid {
