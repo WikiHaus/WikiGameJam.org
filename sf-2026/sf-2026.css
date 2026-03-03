@@ -425,6 +425,16 @@ a:focus {
     transition: all var(--transition-medium);
 }
 
+.text-header-sm {
+    font-family: var(--font-header);
+    font-size: var(--font-size-md);
+    letter-spacing: 0.02em;
+    margin-bottom: var(--spacing-sm);
+    transition: all var(--transition-medium);
+    display: block;
+    width: 100%;
+}
+
 .card-lime {
     background:
         linear-gradient(135deg, rgba(107, 253, 107, 0.15) 0%, rgba(107, 253, 107, 0.08) 100%),
@@ -611,6 +621,11 @@ a:focus {
     letter-spacing: 0.05em;
 }
 
+.subsection > .description {
+    margin-top: var(--spacing-lg);
+    margin-bottom: 0;
+}
+
 .theme-lime .subsection-header {
     color: #6BFD6B;
     text-shadow: 0 0 6px rgba(107, 253, 107, 0.5), 0 0 10px rgba(107, 253, 107, 0.25);
@@ -659,9 +674,6 @@ a:focus {
     color: #ffd1dc;
     font-size: 1rem;
     display: block;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
     width: 100%;
 }
 
