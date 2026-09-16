@@ -1,15 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Press+Start+2P&family=Share+Tech+Mono:wght@400&display=swap');
 
 :root {
     /* Typography */
     --font-mono: 'Share Tech Mono', monospace;
     --font-header: 'Orbitron', monospace;
+    --font-arcade: 'Press Start 2P', 'Orbitron', monospace;
     
     /* Colors */
     --color-black: #000;
     --color-white: #fff;
     --color-grid: rgba(255, 255, 255, 0.3);
     --color-grid-bright: rgba(255, 255, 255, 0.6);
+    --color-logo-shadow: #64b5f6;
     
     /* Grid */
     --grid-size: 50px;
@@ -91,15 +93,22 @@ body {
 }
 
 .logo {
-    max-width: min(400px, 80vw);
-    width: 100%;
-    height: auto;
-    filter: brightness(0) invert(1) drop-shadow(0 0 20px rgba(255, 255, 255, 0.3));
+    font-family: var(--font-arcade);
+    font-weight: 400;
+    font-size: clamp(1.4rem, 6.5vw, 2.75rem);
+    line-height: 1.3;
+    letter-spacing: 0.04em;
+    color: var(--color-white);
+    text-shadow:
+        4px 4px 0 var(--color-logo-shadow),
+        0 0 20px rgba(255, 255, 255, 0.3);
     transition: all var(--transition);
 }
 
 .logo:hover {
-    filter: brightness(0) invert(1) drop-shadow(0 0 30px rgba(255, 255, 255, 0.5));
+    text-shadow:
+        4px 4px 0 var(--color-logo-shadow),
+        0 0 30px rgba(255, 255, 255, 0.5);
     transform: scale(1.02) translateZ(0);
 }
 
@@ -248,7 +257,9 @@ body {
     }
     
     .logo {
-        max-width: min(300px, 75vw);
+        text-shadow:
+            3px 3px 0 var(--color-logo-shadow),
+            0 0 20px rgba(255, 255, 255, 0.3);
     }
     
     .section-title {
@@ -281,7 +292,9 @@ body {
     }
     
     .logo {
-        max-width: min(250px, 70vw);
+        text-shadow:
+            2px 2px 0 var(--color-logo-shadow),
+            0 0 16px rgba(255, 255, 255, 0.3);
     }
     
     .section-title {
