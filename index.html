@@ -8,6 +8,10 @@
     <meta name="description"
         content="Creative hackathons for developers, designers, and Wikipedia enthusiasts to make playful games inspired by Wikipedia.">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Press+Start+2P&family=Share+Tech+Mono:wght@400&display=swap">
     <link rel="stylesheet" href="homepage.css">
 </head>
 
@@ -24,7 +28,7 @@
         <div class="events-container">
             <section class="events-section">
                 <h2 class="section-title">Upcoming Events</h2>
-                <ul class="event-list">
+                <ul class="event-list" role="list">
                     <li class="event-item">
                         <span class="event-name">Boston 2026</span>
                         <span class="event-date">Ideating</span>
@@ -38,35 +42,35 @@
 
             <section class="events-section">
                 <h2 class="section-title">Past Events</h2>
-                <ul class="event-list">
+                <ul class="event-list" role="list">
                     <li>
-                        <a href="/sf-2026" target="_blank" class="event-item event-link">
+                        <a href="/sf-2026" class="event-item event-link">
                             <span class="event-name">San Francisco 2026</span>
                             <span class="event-date">March 13 - 15, 2026</span>
                         </a>
                     </li>
                     <li>
-                        <a href="/sf-2025" target="_blank" class="event-item event-link">
+                        <a href="/sf-2025" class="event-item event-link">
                             <span class="event-name">San Francisco 2025</span>
-                            <span class="event-date">November 15, 2025 <span class="event-arrow">⮕</span></span>
+                            <span class="event-date">November 15, 2025</span>
                         </a>
                     </li>
                     <li>
-                        <a href="/nyc-2025" target="_blank" class="event-item event-link">
+                        <a href="/nyc-2025" class="event-item event-link">
                             <span class="event-name">New York City 2025</span>
-                            <span class="event-date">October 3-5, 2025 <span class="event-arrow">⮕</span></span>
+                            <span class="event-date">October 3-5, 2025</span>
                         </a>
                     </li>
                 </ul>
             </section>
 
-            <div class="cta-container">
+            <footer class="cta-container">
                 <p class="cta-text">Interested in bringing WikiGameJam to your city? <a href="mailto:gamejam@wiki.haus"
                         class="cta-link">Reach out!</a></p>
-                <p class="cta-text">Browse games at <a href="https://playwiki.games" target="_blank"
-                        class="cta-link">playwiki.games</a> • A <a href="https://wiki.haus" target="_blank"
+                <p class="cta-text">Browse games at <a href="https://playwiki.games" target="_blank" rel="noopener"
+                        class="cta-link">playwiki.games</a> • A <a href="https://wiki.haus" target="_blank" rel="noopener"
                         class="cta-link">WikiHaus</a> project</p>
-            </div>
+            </footer>
         </div>
     </main>
 </body>
